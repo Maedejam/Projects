@@ -1,0 +1,28 @@
+html,
+body {
+  display: grid;
+  justify-content: center;
+  align-content: start;
+  height: 100vh;
+}
+
+.list-group {
+  min-width: 320px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.list-group-item .btn {
+  text-decoration: none;
+}
+
+.complete span {
+  color: var(--bs-list-group-disabled-color);
+  background-color: var(--bs-list-group-disabled-bg);
+  text-decoration: line-through;
+}

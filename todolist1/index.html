@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <h1 class="display-4 py-3" data-creator="Michael Eisenbraun">To Do List</h1>
+
+    <form id="form" class="mb-3">
+    <input type="text" class="form-control" id="item">
+    </form>
+
+        <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox" value="" id="hideComplete">
+        <label class="form-check-label" for="hideComplete">
+            Hide completed items
+        </label>
+        </div>
+
+        <ul id="list" class="list-group">
+        <li class="list-group-item">
+            <span>Buy Milk</span>
+            <button class="btn">&times;</button>
+        </li>
+        <li class="list-group-item complete">
+            <span>Feed Cat</span>
+            <button class="btn">&times;</button>
+        </li>
+        </ul>
+    <script src="script.js"></script>
+</body>
+</html>
